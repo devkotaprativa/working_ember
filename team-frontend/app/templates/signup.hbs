@@ -1,0 +1,6 @@
+<form {{action 'createUser' on="submit"}}>
+  {{input type="text" value=userEmail placeholder="Email"}}
+  {{input type="password" value=userPassword placeholder="Password"}}
+  <button type="submit">Sign up</button>
+</form>
+{{outlet}}
